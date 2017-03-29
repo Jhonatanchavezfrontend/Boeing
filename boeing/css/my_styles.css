@@ -1,0 +1,435 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.row{
+	margin:auto;
+	width: 90%; 
+	box-sizing:border-box;
+	
+}
+
+.First-color{
+	background: linear-gradient(90deg, #273055, #35476c, #4e547f);
+}
+
+
+.logo-svg{
+	width:12em;
+
+}
+
+.redes-logo{
+	display: flex;
+	justify-content:space-between;
+	padding-top: 3em;
+}
+
+.content-banner{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.contenido{
+	width: 27em;
+	padding: 0 1em;
+	
+
+}
+.contenido h2{
+	font-weight:300;
+	font-size: 2.3em
+}
+.contenido p{
+	font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    letter-spacing: 0.07em;
+    padding-bottom: 1em;
+}
+
+.boton{
+	text-transform: uppercase;
+    background-color: #00cbb5;
+    border-radius: 0.2em;
+    color: white;
+    font-size: 0.8em;
+    padding: 1.4em 4em;
+    border: none;
+    letter-spacing:0.07em;}
+
+
+/* *************secon section******** */
+
+.second-color{
+	background-color: #f7f8fc;
+	box-sizing:border-box;
+	padding:0 1em;
+
+
+}
+
+.second-color h2{
+	text-align: center;
+	margin:0;
+	font-weight:300;
+	font-size: 2.3em;
+	padding-top:3em;
+	margin-bottom:0.7em;
+
+
+}
+
+.second-color  p{
+	text-align: center;
+	font-size:1,5em;
+	font-weight:300;
+	width:100%;
+	margin: auto;
+	padding-bottom:2em;
+
+	
+}
+
+.second-color img{
+	margin: auto;
+    display: flex;
+    align-items: center;
+    width:60%
+
+
+}
+
+/*********Three section*************/
+
+.three-color{
+	background:linear-gradient(90deg, #262a43, #303250, #262a43);
+}
+
+.three-color h2{
+	text-align: center;
+	margin:0;
+	font-weight:300;
+	font-size: 2.3em;
+	padding-top:3em;
+	margin-bottom:0.7em;
+	color: white;
+
+
+}
+
+.three-color  p{
+	text-align: center;
+    font-weight: 300;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2em;
+    color: white;
+    padding-right: 2em;
+    box-sizing: border-box;
+}
+
+article{
+	display: flex;
+	justify-content:space-between;
+	box-sizing:border-box;
+	padding: 0 1em;
+}
+
+article img{
+	display: flex;
+    margin: auto;
+}
+
+
+
+h3{
+	font-weight:600;
+	font-size:1em;
+	color: white;
+	text-align: left;
+}
+
+.articulos .textos{
+	text-align: left;
+    font-weight: 300;
+    width: 300px;
+    margin: auto 0em;
+    padding-bottom: 2em;
+    color: white;
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0.7em;
+}
+
+.titulo_art{
+	padding: 0 0.5em;
+}
+
+/*++++++++**************Footer************ */
+
+.final{
+	background-color: #f7f8fc;
+}
+
+footer{	
+    color: #8d909e;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+	}
+
+	h3.titulo-final {
+    margin: 1em 0 0.2em 0em;
+    color: #8d909e;
+}
+
+	p.parrafo-final {
+    margin: 0em;
+}
+
+
+.icons{
+	display:flex;
+}
+
+.fa {
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+/* Styles */
+
+	.row{
+	width: 100%;
+    padding-right: 3em;
+    padding-left: 3em;
+    box-sizing: border-box;
+    
+	}
+
+	.contenido h2{
+		font-size: 1.6em;
+
+	}
+
+	.tablet{
+		display: none;
+	}
+
+
+
+}
+
+
+
+/*nmediqueries para landascape Mobile */
+
+@media only screen and (max-width: 736px) and (min-width: 501px) {  
+    
+
+
+	.tablet{
+		display: none;
+		}
+
+
+	.articulos .textos{
+   		width: 100%;}
+
+   	article{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+	}
+
+	footer{	
+		
+	    flex-direction:column;
+	    align-items: center;
+	    text-align: center;
+	   
+	}
+
+   
+  }
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* Styles */
+	.row{
+	width: 100%;
+	}
+
+	.logo-svg{
+	width:12em;
+	
+
+	}
+
+	.redes-logo{
+	display: flex;
+	padding-top: 3em;
+	justify-content: center;
+	}
+
+	.redes{
+		display:none;
+	}
+
+	.content-banner{
+	display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: white;
+	}
+
+
+	.contenido{
+	width: 90%;
+	
+	}
+
+	.contenido p{
+	text-align: center;
+	
+	}
+
+	.boton{
+	display:flex;
+	margin: auto;
+
+	}
+
+	.cel1 img{
+	width: 49%;
+    display: flex;
+    margin: auto;
+	}
+	
+	.contenido h2 {
+
+    margin-bottom: 0.2em;
+    text-align: center;
+    font-size: 1.6em
+
+	}
+
+	.contenido p {
+	font-size: 0.8em;
+	letter-spacing:0.09em;
+	}
+
+
+
+	/*secon color */
+
+	.second-color img{
+	
+    width:100%}
+
+    .second-color h2{
+   	font-size:1.6em;
+   	padding-top:2em;
+
+    }
+
+    .second-color p{
+
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+	}
+
+
+
+	article{
+	display: flex;
+	flex-direction: column;
+
+	}
+
+	.articulos .textos{
+
+	text-align: center;
+    padding-left: 0;
+    width: 100%;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    line-height: 1.6em;
+
+	}
+
+	.titulo_art{
+	text-align: center;
+    letter-spacing: 0.08em;
+}
+	
+
+	 .three-color p{
+
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    padding: 0 1em 2em 1em;
+	}
+
+
+	.three-color h2{
+	font-size: 1.6em;
+    padding-top: 2em;
+
+
+}
+
+	.tablet{
+			display: none;
+		}
+
+	footer{	
+		
+	    flex-direction:column;
+	    align-items: center;
+	    text-align: center;
+	   
+
+		}
+
+
+
+	.titulo-final{
+		text-align:center;
+	}
+
+	.fa {
+    font-size: 1em;
+    margin: 0.5em;
+}
+
+
+
+	
+
+
+    
+
+
+
+}
+
+
